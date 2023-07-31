@@ -9,6 +9,8 @@ def index(request):
         "legenda": "webbtelescope.org / NASA / James Webb"},
     2: {"nome": "Galáxia NGC 1079",
         "legenda": "nasa.org / NASA / Hubble"},
+    3: {"nome": "sou viado demais",
+        "legenda": "sou viado"},
     }
     
     return render(request, 'galeria/index.html', {"cards": dados})
